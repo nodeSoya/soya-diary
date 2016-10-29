@@ -1,0 +1,47 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td { padding:0; margin:0; }
+body{height: 100%;overflow-x: hidden;font-size: 100%;color: #333;}
+.page{
+	min-height:100%;width:100%;position:relative;overflow:hidden;
+}
+/*--custom--*/
+@media screen and (min-device-width:640px) and (min-width:768px) {
+	.page {
+		margin:0 auto;
+		width:320px;
+	}
+}
+.logo{width:55%;height:auto;position:absolute;top:10px;left:4%;z-index:999;}
+.logo img{width:100%;}
+.top_bg{width:100%;position:absolute;top:0;left:0;z-index:-1;}
+.top_bg img{width:100%;}
+.audio_btn{right:5%;top:20px;width:10%;position:absolute;z-index:999;}
+.audio_btn img{width:100%}
+.bottom_bg{position:absolute;bottom:0;width:100%;z-index:999;height:auto;}
+.bottom_bg img{width:100%;}
+.bottom_btn{width:25%;height:100%;position:absolute;top:0;}
+.bottom_btn1{left:0}
+.bottom_btn2{left:25%}
+.bottom_btn3{left:50%}
+.bottom_btn4{left:75%}
